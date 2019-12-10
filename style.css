@@ -98,10 +98,6 @@ body {
   font-size: 1.5rem;
 }
 
-.row {
-  padding: 20px 200px 70px 200px;
-}
-
 .col-md-4 {
   padding: 0 20px;
 }
@@ -132,6 +128,16 @@ body {
   border-color: #189582;
   background-color: #189582;
   color: white;
+}
+
+/* Resources Page */
+.fa-code, .fa-bold, .fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fixed-background {
+  background-image: url(img/apple.png);
 }
 
 
