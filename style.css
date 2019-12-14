@@ -72,30 +72,44 @@ body {
 }
 
 /* Course Page */
-.cont01 {
+.jumbotron {
   background: #f5f5f5;
   padding-top: 80px;
+  margin-bottom: 0;
 }
 
-.section_title h2 {
+
+.heading {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 20px;
 }
 
-.fa-arrows-alt-h{
-  font-size: 38px;
+.heading-underline {
+  width: 50px;
+  color: #1EBBA3;
+  border: 2px solid #1EBBA3;
+}
+
+
+.fa-play-circle, .fa-sliders-h, .fa-wpforms {
   color: #1EBBA3;
 }
 
-.fa-arrow-alt-circle-right, .fa-align-center, .fa-cat {
-  font-size: 50px;
-  color: #1EBBA3;
-}
-
-.col-sm-12 h3 {
+.feature h3 {
   text-transform: uppercase;
   padding-top: 25px;
   font-size: 1.5rem;
+}
+
+/* .feature {
+  padding-top: 30px;
+  
+} */
+
+.feature p {
+  padding: 0 30px;
 }
 
 .col-md-4 {
@@ -136,9 +150,35 @@ body {
   margin: 1rem;
 }
 
-.fixed-background {
+.fixed {
   background-image: url(img/apple.png);
 }
+
+.fixed-background {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 120px 0 110px 0;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+  color: #1EBBA3;
+}
+
+.col-md-4 h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.person {
+  display: inline-block;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
