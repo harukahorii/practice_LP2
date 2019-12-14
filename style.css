@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 body {
-  overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-fam ily: 'Lato', sans-serif;
   color: #505962;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
 }
 
 /* Navigation */
@@ -73,9 +79,8 @@ body {
 
 /* Course Page */
 .jumbotron {
-  background: #f5f5f5;
-  padding-top: 80px;
   margin-bottom: 0;
+  background-repeat: 0;
 }
 
 
@@ -87,9 +92,11 @@ body {
 }
 
 .heading-underline {
-  width: 50px;
+  width: 3rem;
+  height: 0.2rem;
   color: #1EBBA3;
   border: 2px solid #1EBBA3;
+  margin: 0 auto;
 }
 
 
@@ -99,21 +106,13 @@ body {
 
 .feature h3 {
   text-transform: uppercase;
-  padding-top: 25px;
-  font-size: 1.5rem;
-}
-
-/* .feature {
-  padding-top: 30px;
   
-} */
+  font-size: 1.3rem;
+}
 
 .feature p {
   padding: 0 30px;
-}
-
-.col-md-4 {
-  padding: 0 20px;
+  font-size: 1.1rem;
 }
 
 /*============= COURSE SECTION =============*/
@@ -152,31 +151,74 @@ body {
 
 .fixed {
   background-image: url(img/apple.png);
+  z-index: -1;
 }
 
 .fixed-background {
-  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 120px 0 110px 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .fa-code, .fa-bold, .fa-css3 {
   color: #1EBBA3;
 }
 
-.col-md-4 h3 {
+.fixed-background h3 {
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.person {
+
+/* Client */
+.clients img {
   display: inline-block;
-  overflow: hidden;
-  width: 150px;
+   width: 150px;
   height: 150px;
   border-radius: 50%;
   vertical-align: middle;
   margin-right: 8px;
+}
+
+blockquote .svg-inline--fa {
+  color: #1EBBA3;
+  margin: 1rem;
+}
+
+cite {
+  float: left;
+}
+
+.clients-hr {
+  border-top: .05rem solid #1EBBA3;
+}
+
+/* footer */
+footer {
+  background: #545454;
+}
+
+#contact {
+  color: #ffffff;
+}
+
+.col-md-5 img {
+  width: 200px;
+  height: 50px;
+}
+
+.justify-content-center {
+  padding-top: 50px;
+}
+
+.col-md-5 p {
+  display: inline-block;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram {
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 
